@@ -1,0 +1,204 @@
+{
+	"dodo" : {
+		"abilities" : {
+			"canShoot" : { "type" : "SHOOTER" },
+			"fearless" : {
+			"type" : "FEARLESS"
+			}
+		},
+		"advMapAmount" : { "max" : 16, "min" : 8 },
+		"aiValue" : 903,
+		"attack" : 9,
+		"cost" : { "gold" : 400 },
+		"damage" : { "max" : 12, "min" : 6 },
+		"defense" : 9,
+		"faction" : "courtyard",
+		"fightValue" : 888,
+		"graphics" : {
+			"animation" : "courtyard/battle/CDodo.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcDodo101",
+			"iconSmall" : "courtyard/icons/units/IsDodo101",
+			"map" : "courtyard/map/lvl5unit.def",
+			"missile" : {
+				"attackClimaxFrame" : 10,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 11,
+					"lowerY" : -46,
+					"middleX" : 37,
+					"middleY" : -62,
+					"upperX" : 32,
+					"upperY" : -82
+				},
+				"projectile" : "courtyard/battle/projectile/PMagic.def"
+				},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 35,
+		"level" : 5,
+		"name" : { "plural" : "Druids", "singular" : "Druid" },
+		"shots" : 24,
+		"sound" : {
+			"attack" : "courtyard/lvl6/DodoATTK.wav",
+			"defend" : "courtyard/lvl6/DodoDFND.wav",
+			"killed" : "courtyard/lvl6/DodoDEAD.wav",
+			"move" : "courtyard/lvl6/DodoMOVE.wav",
+			"shoot" : "courtyard/lvl6/MAGESHOT.wav", 
+			"wince" : "courtyard/lvl6/DodoWNCE.wav"
+		},
+		"speed" : 5,
+		"upgrades" : [ "battleDodo"]
+	},
+	
+	"battleDodo" : {
+		"abilities" : {
+			"canShoot" : { "type" : "SHOOTER" },
+			"fearless" : {
+			"type" : "FEARLESS"
+			},
+			"damageReduction1" : {
+			"type" : "GENERAL_DAMAGE_REDUCTION",
+			"subtype" : "damageTypeMelee",
+			"val" : 25
+			},
+			"damageReduction2" : {
+			"type" : "GENERAL_DAMAGE_REDUCTION",
+			"subtype" : "damageTypeRanged",
+			"val" : 25
+			},
+			"magicDamageReduction" : {
+			"type" : "SPELL_DAMAGE_REDUCTION",
+			"subtype" : "spellSchool.any",
+			"val" : 33
+			},
+			"magicDamageReductionAura" : {
+			"type" : "SPELL_RESISTANCE_AURA",
+			"val" : 20
+			},
+			"defensiveStance" : {
+			"type" : "DEFENSIVE_STANCE", "val" : 5
+			}	
+		},
+		"advMapAmount" : { "max" : 16, "min" : 10 },
+		"aiValue" : 1319,
+		"attack" : 9,
+		"cost" : { "gold" : 750 },
+		"damage" : { "max" : 12, "min" : 6 },
+		"defense" : 17,
+		"faction" : "courtyard",
+		"fightValue" : 1171,
+		"graphics" : {
+			"animation" : "courtyard/battle/CPdod.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcDodo102",
+			"iconSmall" : "courtyard/icons/units/IsDodo102",
+			"map" : "courtyard/map/lvl5unitup.def",
+			"missile" : {
+				"attackClimaxFrame" : 10,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 11,
+					"lowerY" : -46,
+					"middleX" : 37,
+					"middleY" : -62,
+					"upperX" : 32,
+					"upperY" : -82
+				},
+				"projectile" : "courtyard/battle/projectile/PMagic.def"
+				},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+		"name" : { "plural" : "Master Druids", "singular" : "Master Druid" },
+		"shots" : 30,
+		"sound" : {
+			"attack" : "courtyard/lvl6/DodoATTK.wav",
+			"defend" : "courtyard/lvl6/UPDodoDFND.wav",
+			"killed" : "courtyard/lvl6/UPDodoDEAD.wav",
+			"move" : "courtyard/lvl6/DodoMOVE.wav",
+			"shoot" : "courtyard/lvl6/MAGESHOT.wav", 
+			"wince" : "courtyard/lvl6/UPDodoWNCE.wav"
+		},
+		"speed" : 5,
+	},
+
+
+	"greaterDodo" : {
+				"abilities" : {
+			"canShoot" : { "type" : "SHOOTER" },
+			"fearless" : {
+			"type" : "FEARLESS"
+			},
+			"damageReduction1" : {
+			"type" : "GENERAL_DAMAGE_REDUCTION",
+			"subtype" : "damageTypeMelee",
+			"val" : 25
+			},
+			"damageReduction2" : {
+			"type" : "GENERAL_DAMAGE_REDUCTION",
+			"subtype" : "damageTypeRanged",
+			"val" : 25
+			},
+			"magicDamageReduction" : {
+			"type" : "SPELL_DAMAGE_REDUCTION",
+			"subtype" : "spellSchool.any",
+			"val" : 33
+			},
+			"magicDamageReductionAura" : {
+			"type" : "SPELL_RESISTANCE_AURA",
+			"val" : 20
+			},
+			"defensiveStance" : {
+			"type" : "DEFENSIVE_STANCE", "val" : 5
+			}	
+		},
+"advMapAmount" : { "max" : 16, "min" : 10 },
+		"aiValue" : 1319,
+		"attack" : 9,
+		"cost" : { "gold" : 750 },
+		"damage" : { "max" : 12, "min" : 6 },
+		"defense" : 17,
+		"faction" : "courtyard",
+		"fightValue" : 1171,
+		"graphics" : {
+			"animation" : "courtyard/battle/CPdod.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcDodo102",
+			"iconSmall" : "courtyard/icons/units/IsDodo102",
+			"map" : "courtyard/map/lvl5unitup.def",
+			"missile" : {
+				"attackClimaxFrame" : 10,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 11,
+					"lowerY" : -46,
+					"middleX" : 37,
+					"middleY" : -62,
+					"upperX" : 32,
+					"upperY" : -82
+				},
+				"projectile" : "courtyard/battle/projectile/PMagic.def"
+				},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+		"name" : { "plural" : "Master Druids", "singular" : "Master Druid" },
+		"shots" : 30,
+		"sound" : {
+			"attack" : "courtyard/lvl6/DodoATTK.wav",
+			"defend" : "courtyard/lvl6/UPDodoDFND.wav",
+			"killed" : "courtyard/lvl6/UPDodoDEAD.wav",
+			"move" : "courtyard/lvl6/DodoMOVE.wav",
+			"shoot" : "courtyard/lvl6/MAGESHOT.wav", 
+			"wince" : "courtyard/lvl6/UPDodoWNCE.wav"
+		},
+		"speed" : 5,
+		"upgrades" : [ "battleDodo" ]
+	}
+}
