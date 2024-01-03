@@ -1,1 +1,1 @@
-Extract eden-town.7z to your mod folder in VCMI (vcmi\Mods\)
+Put eden-town folder inside your mod folder in VCMI for example (vcmi\Mods\)

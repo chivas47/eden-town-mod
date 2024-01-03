@@ -8,7 +8,7 @@
 		},
 		"advMapAmount" : { "max" : 16, "min" : 8 },
 		"aiValue" : 903,
-		"attack" : 9,
+		"attack" : 10,
 		"cost" : { "gold" : 400 },
 		"damage" : { "max" : 12, "min" : 6 },
 		"defense" : 9,

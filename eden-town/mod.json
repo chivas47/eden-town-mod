@@ -10,7 +10,8 @@
 	
 	"changelog" :
     {
-		"0.01"   : [ "Initial release"  ]
+		"0.01"   : [ "Initial release"  ],
+		"0.02"   : [ "Added new Hero, balance changes"  ]
     },
 	
 	"compatibility":
@@ -86,6 +87,7 @@
 		"config/courtyard/heroes/Nefefareen",
 		"config/courtyard/heroes/Auk",
 		"config/courtyard/heroes/Dizheel",
+		"config/courtyard/heroes/Ciele",
 		"config/courtyard/heroes/Ophrys",
 		"config/courtyard/heroes/Zana",
 		"config/courtyard/heroes/Lumiere",

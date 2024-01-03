@@ -22,6 +22,17 @@
 			}
 		}
 	},
+	"ciele" : {
+		"texts" : {
+			"biography" : "Growing up next to the ocean bordering AvLee, Ciele always felt a bond with the ancient waters. She has wandered once again the lands seeking her calling. Now she finds herself serving the Eden.",
+			"name" : "Ciele",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Magic Arrow",
+				"name" : "Magic Arrow",
+				"description" : "{Magic Arrow}\r\n\r\nCasts Magic Arrow with damage increased by 5% for every n hero levels (n - target creature level)."
+			}
+		}
+	},
 	
 	"15zazzerpan" : {	
 		"texts" : {

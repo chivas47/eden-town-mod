@@ -1,0 +1,38 @@
+{
+	"ciele" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+		],
+		"class" : "philosopher",
+		"female" : true,
+		"images" : {
+			"large" : "courtyard/heroes/Ciele/portraitlarge.png",
+			"small" : "courtyard/heroes/Ciele/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Ciele/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Ciele/specsmall1.png"
+		},
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "waterMagic",
+				"level": "basic"
+			}
+		],
+		"spellbook" : [ "magicArrow" ],
+			"specialty" : {
+				"bonuses" : {
+					"magicArrow" : {
+						"type" : "SPECIAL_SPELL_LEV",
+						"subtype" : "spell.magicArrow",
+						"val" : 5,
+						"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}
