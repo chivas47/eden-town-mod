@@ -79,6 +79,7 @@
 	],
 	
 	"heroClasses" : [ 
+		"config/courtyard/classes/elementalist", 
 		"config/courtyard/classes/mightHero", 
 		"config/courtyard/classes/magicHero" 
 	],

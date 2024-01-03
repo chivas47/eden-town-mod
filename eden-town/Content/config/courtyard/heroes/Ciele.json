@@ -5,7 +5,7 @@
 			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
 			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
 		],
-		"class" : "philosopher",
+		"class" : "elementalista",
 		"female" : true,
 		"images" : {
 			"large" : "courtyard/heroes/Ciele/portraitlarge.png",
@@ -29,8 +29,7 @@
 					"magicArrow" : {
 						"type" : "SPECIAL_SPELL_LEV",
 						"subtype" : "spell.magicArrow",
-						"val" : 5,
-						"updater" : "TIMES_HERO_LEVEL"
+						"val" : 50
 				}
 			}
 		}
