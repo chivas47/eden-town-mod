@@ -1,9 +1,9 @@
 {
 	"ciele" : {
 		"army" : [
-			{ "creature" : "cupid", "max" : 18, "min" : 10 },
-			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
-			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+			{ "creature" : "cupid", "max" : 10, "min" : 5 },
+			{ "creature" : "homunculus", "max" : 6, "min" : 3 },
+			{ "creature" : "fireNewt", "max" : 2, "min" : 1 }
 		],
 		"class" : "elementalista",
 		"female" : true,

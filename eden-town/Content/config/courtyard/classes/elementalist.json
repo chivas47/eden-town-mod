@@ -5,8 +5,8 @@
 		"commander" : "courtCommander",
 		"defaultTavern" : 4,
 		"faction" : "courtyard",
-		"lowLevelChance" : { "attack" : 30, "defence" : 10, "knowledge" : 20, "spellpower" : 40 },
-		"highLevelChance" : { "attack" : 15, "defence" : 20, "knowledge" : 30, "spellpower" : 35 },
+		"lowLevelChance" : { "attack" : 15, "defence" : 15, "knowledge" : 35, "spellpower" : 35 },
+		"highLevelChance" : { "attack" : 25, "defence" : 25, "knowledge" : 25, "spellpower" : 25 },
 
 		"mapObject" : { "templates" : { "default" : { "animation" : "courtyard/heroes/CourtMaleMagicMap" } } },
 		"name" : "Elementalista",
@@ -43,15 +43,15 @@
 		},
 		"tavern" : {
 			"castle" : 5,
-			"conflux" : 7,
+			"conflux" : 1,
 			"courtyard" : 8,
-			"dungeon" : 6,
+			"dungeon" : 5,
 			"fortress" : 3,
 			"inferno" : 4,
 			"necropolis" : 4,
 			"rampart" : 3,
 			"stronghold" : 2,
-			"tower" : 6
+			"tower" : 5
 		}
 	}
 }
