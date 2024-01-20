@@ -6,12 +6,13 @@
 	"contact" : "NONE",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "0.02",
+	"version" : "0.03",
 	
 	"changelog" :
     {
 		"0.01"   : [ "Initial release"  ],
 		"0.02"   : [ "Added new Hero, balance changes"  ]
+		"0.03"   : [ "Creature and town sprites update"  ]
     },
 	
 	"compatibility":

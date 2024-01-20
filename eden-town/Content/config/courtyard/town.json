@@ -101,7 +101,7 @@
 				},
 				"dwellingUpLvl2" : {
 					"cost" : { "gold" : 1000, "mercury" : 2 },
-					"description" : "The Upg. Alchemy Tower allows you to recruit Ancient Dwarf Masters.",
+					"description" : "The Upg. Alchemy Tower allows you to recruit Gilded Dwarves.",
 					"id" : 38,
 					"name" : "Upg. Alchemy Tower",
 					"upgrades" : "dwellingLvl2",
@@ -291,7 +291,7 @@
 					"requires" : [ "allOf", [ "mageGuild2" ], ["citadel"] ]
 				},
 				"special4" : {
-					"cost" : { "gold" : 1250, "ore" : 2, "wood" : 2 },
+					"cost" : { "gold" : 1100, "ore" : 2, "wood" : 2 },
 					"description" : "The Alchemy Shop earns your kingdom 500 gold per day.",
 					"id" : 23,
 					"name" : "Alchemy Shop",
